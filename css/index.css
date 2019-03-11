@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .main-nav {
     display: flex;
     flex-flow: row wrap;
@@ -205,4 +210,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ========= About ========= */
+.about {
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
+}
+
+.skill-card {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.skill-card img,
+.skill-card p,
+.skill-card button {
+    margin-bottom: 5px;
+}
+
+.skill-card button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.work-together {
+    margin: 40px 0;
 }
