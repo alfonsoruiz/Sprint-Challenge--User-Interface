@@ -34,13 +34,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is a standardized way of writing HTML that allows you to give all of the conent that is displayed in a user interface meaning and structure. The use of Sementic HTML gives browsers, search engines and other developers a predictable way of building and processing web pages. 
+
+    As you can imagine writing code in an non-standard and unstructured way where every developer could write things as they see fit would make it very difficult for developers to work together productively.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+    1. Setting display:inline-block allows for top and and bottom margins to be applied to a given element. Setting display: inline does not allow top and bottom margin to be applied to an element.
+
+    2. Setting display:inline-block allows for top and bottom padding to be applied to a given element. Setting display: inline does not allow for top and bottom padding to be applied to an element.
+
 3. What are the 4 areas of the box model?
+    1. Content
+    2. Padding
+    3. Border
+    4. Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross Axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git makes building software in teams easier, collaborative and safe.
+    
+    Git allows for easy development by allowing code bases to be shared and looked through easily by features like cloning (copying) entire software repos (projects) on to a local computer. This allows developers to look through the complete history of how a piece of software was built.
+
+    Git also allows for easy collabration in writing software with features like branching which allows developers to work on software features together without modifying the original code base that was cloned.
+
+    And last but not least Git gives developers a large margin of error in in terms of saftey allowing them to take snapshots of there entire code history at different points in time as well as revert there code base back to any one of those points in time. 
+
+    This just an overview of the benefits of using the git version contorl system. There is much more information about Git and its features:
+    [Click here for the home page example](https://git-scm.com)
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
