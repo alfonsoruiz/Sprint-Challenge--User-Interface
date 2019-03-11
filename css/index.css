@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+.main-nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.header-img {
+    margin-bottom: 25px;
+}
+
+.main-nav-links {
+    margin-right: 40px;
+}
+
+.main-nav-links a{
+    margin-left: 65px;
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
